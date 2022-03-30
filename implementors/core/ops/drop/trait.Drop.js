@@ -1,0 +1,5 @@
+(function() {var implementors = {};
+implementors["cstr_core"] = [{"text":"impl Drop for <a class=\"struct\" href=\"cstr_core/struct.CString.html\" title=\"struct cstr_core::CString\">CString</a>","synthetic":false,"types":["cstr_core::CString"]}];
+implementors["once_cell"] = [{"text":"impl&lt;T&gt; Drop for <a class=\"struct\" href=\"once_cell/race/struct.OnceBox.html\" title=\"struct once_cell::race::OnceBox\">OnceBox</a>&lt;T&gt;","synthetic":false,"types":["once_cell::race::once_box::OnceBox"]}];
+implementors["scopeguard"] = [{"text":"impl&lt;T, F, S&gt; Drop for <a class=\"struct\" href=\"scopeguard/struct.ScopeGuard.html\" title=\"struct scopeguard::ScopeGuard\">ScopeGuard</a>&lt;T, F, S&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;F: FnOnce(T),<br>&nbsp;&nbsp;&nbsp;&nbsp;S: <a class=\"trait\" href=\"scopeguard/trait.Strategy.html\" title=\"trait scopeguard::Strategy\">Strategy</a>,&nbsp;</span>","synthetic":false,"types":["scopeguard::ScopeGuard"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
